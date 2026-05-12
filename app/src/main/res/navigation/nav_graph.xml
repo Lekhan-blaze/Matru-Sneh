@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/kickCounterFragment">
+
+    <fragment
+        android:id="@+id/kickCounterFragment"
+        android:name="com.matrusineh.health.ui.KickCounterFragment"
+        android:label="ಒದೆ / Kick"
+        tools:layout="@layout/fragment_kick_counter"
+        xmlns:tools="http://schemas.android.com/tools" />
+
+    <fragment
+        android:id="@+id/checkupFragment"
+        android:name="com.matrusineh.health.ui.CheckupFragment"
+        android:label="ತಪಾಸಣೆ / Checkup"
+        tools:layout="@layout/fragment_checkup"
+        xmlns:tools="http://schemas.android.com/tools" />
+
+    <fragment
+        android:id="@+id/nutritionFragment"
+        android:name="com.matrusineh.health.ui.NutritionFragment"
+        android:label="ಪೋಷಣೆ / Nutrition"
+        tools:layout="@layout/fragment_nutrition"
+        xmlns:tools="http://schemas.android.com/tools" />
+
+    <fragment
+        android:id="@+id/healthAlertFragment"
+        android:name="com.matrusineh.health.ui.HealthAlertFragment"
+        android:label="ಎಚ್ಚರಿಕೆ / Alerts"
+        tools:layout="@layout/fragment_health_alert"
+        xmlns:tools="http://schemas.android.com/tools" />
+</navigation>

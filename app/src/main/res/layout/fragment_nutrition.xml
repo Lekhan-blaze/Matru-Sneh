@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Progress Card -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="6dp"
+            app:cardBackgroundColor="@color/primary_light">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:id="@+id/tvNutritionProgress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/primary_dark"
+                    android:layout_marginBottom="12dp" />
+
+                <ProgressBar
+                    android:id="@+id/progressNutrition"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="16dp"
+                    android:max="8"
+                    android:progress="0"
+                    android:progressTint="@color/primary"
+                    android:progressBackgroundTint="@color/divider"
+                    android:layout_marginBottom="12dp" />
+
+                <TextView
+                    android:id="@+id/tvCompletionMsg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nutrition_complete_msg"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/secondary_dark"
+                    android:gravity="center"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Food Checklist Card -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="4dp"
+            app:cardBackgroundColor="@color/white">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nutrition_title"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/primary"
+                    android:layout_marginBottom="16dp" />
+
+                <!-- Food items - each checkbox row -->
+                <CheckBox android:id="@+id/cbRagi" android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:text="🌾 @string/food_ragi"
+                    android:textSize="18sp" android:minHeight="56dp"
+                    android:buttonTint="@color/primary" android:layout_marginBottom="8dp" />
+
+                <CheckBox android:id="@+id/cbGreens" android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:text="🥬 @string/food_greens"
+                    android:textSize="18sp" android:minHeight="56dp"
+                    android:buttonTint="@color/primary" android:layout_marginBottom="8dp" />
+
+                <CheckBox android:id="@+id/cbPulses" android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:text="🫘 @string/food_pulses"
+                    android:textSize="18sp" android:minHeight="56dp"
+                    android:buttonTint="@color/primary" android:layout_marginBottom="8dp" />
+
+                <CheckBox android:id="@+id/cbMilk" android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:text="🥛 @string/food_milk"
+                    android:textSize="18sp" android:minHeight="56dp"
+                    android:buttonTint="@color/primary" android:layout_marginBottom="8dp" />
+
+                <CheckBox android:id="@+id/cbEgg" android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:text="🥚 @string/food_egg"
+                    android:textSize="18sp" android:minHeight="56dp"
+                    android:buttonTint="@color/primary" android:layout_marginBottom="8dp" />
+
+                <CheckBox android:id="@+id/cbBanana" android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:text="🍌 @string/food_banana"
+                    android:textSize="18sp" android:minHeight="56dp"
+                    android:buttonTint="@color/primary" android:layout_marginBottom="8dp" />
+
+                <CheckBox android:id="@+id/cbWater" android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:text="💧 @string/food_water"
+                    android:textSize="18sp" android:minHeight="56dp"
+                    android:buttonTint="@color/primary" android:layout_marginBottom="8dp" />
+
+                <CheckBox android:id="@+id/cbIron" android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:text="💊 @string/food_iron"
+                    android:textSize="18sp" android:minHeight="56dp"
+                    android:buttonTint="@color/primary" android:layout_marginBottom="4dp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+</ScrollView>

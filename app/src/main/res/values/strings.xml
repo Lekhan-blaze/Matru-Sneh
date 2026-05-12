@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Matru-Sneh</string>
+    <string name="app_subtitle">ಮಾತೃ-ಸ್ನೇಹ | Pocket Pregnancy Guide</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title_1">ಮಾತೃ-ಸ್ನೇಹಕ್ಕೆ ಸ್ವಾಗತ!\nWelcome to Matru-Sneh!</string>
+    <string name="onboarding_desc_1">ನಿಮ್ಮ ಗರ್ಭಾವಸ್ಥೆಯ ಆರೋಗ್ಯ ಮಾರ್ಗದರ್ಶಿ\nYour complete pregnancy health guide — works offline!</string>
+    <string name="onboarding_title_2">ಒದೆ ಎಣಿಕೆ ಮತ್ತು ತಪಾಸಣೆ\nKick Counter &amp; Checkup</string>
+    <string name="onboarding_desc_2">ಮಗುವಿನ ಚಲನೆ ಟ್ರ್ಯಾಕ್ ಮಾಡಿ, ತಪಾಸಣೆ ದಿನಾಂಕ ನೆನಪಿಡಿ\nTrack baby kicks and never miss a doctor appointment!</string>
+    <string name="onboarding_title_3">ಪೋಷಣೆ ಮತ್ತು ಆರೋಗ್ಯ ಎಚ್ಚರಿಕೆ\nNutrition &amp; Health Alerts</string>
+    <string name="onboarding_desc_3">ದಿನನಿತ್ಯದ ಆಹಾರ ಪಟ್ಟಿ ಮತ್ತು ಅಪಾಯ ಸೂಚನೆಗಳು\nDaily food checklist and emergency danger sign alerts!</string>
+    <string name="get_started">ಪ್ರಾರಂಭಿಸಿ / Get Started</string>
+    <string name="next">ಮುಂದೆ / Next</string>
+    <string name="skip">ಬಿಡಿ / Skip</string>
+
+    <!-- Profile Setup -->
+    <string name="setup_title">ಮೊದಲ ಮಾಹಿತಿ / Your Profile</string>
+    <string name="enter_name">ನಿಮ್ಮ ಹೆಸರು / Your Name</string>
+    <string name="enter_pregnancy_week">ಗರ್ಭಾವಸ್ಥೆ ವಾರ / Pregnancy Week</string>
+    <string name="save_continue">ಉಳಿಸಿ ಮತ್ತು ಮುಂದುವರಿಯಿರಿ / Save &amp; Continue</string>
+    <string name="name_hint">ಉದಾ: ಸುಮಾ ದೇವಿ / e.g. Suma Devi</string>
+    <string name="week_hint">ಉದಾ: 24 (8–40)</string>
+
+    <!-- Bottom Nav -->
+    <string name="tab_kick">ಒದೆ\nKick</string>
+    <string name="tab_checkup">ತಪಾಸಣೆ\nCheckup</string>
+    <string name="tab_nutrition">ಪೋಷಣೆ\nNutrition</string>
+    <string name="tab_alerts">ಎಚ್ಚರಿಕೆ\nAlerts</string>
+    <string name="tab_kick_short">Kick</string>
+    <string name="tab_checkup_short">Checkup</string>
+    <string name="tab_nutrition_short">Nutrition</string>
+    <string name="tab_alerts_short">Alerts</string>
+
+    <!-- Home -->
+    <string name="hello_mother">ನಮಸ್ಕಾರ / Hello</string>
+    <string name="pregnancy_week_label">ಗರ್ಭಾವಸ್ಥೆ ವಾರ / Pregnancy Week</string>
+    <string name="baby_growth_title">ಈ ವಾರ ಮಗು / Baby This Week</string>
+    <string name="week_label">ವಾರ / Week</string>
+
+    <!-- Kick Counter -->
+    <string name="kick_button_label">ಒದೆ\nKick</string>
+    <string name="today_kicks">ಇಂದಿನ ಒದೆಗಳು / Today\'s Kicks:</string>
+    <string name="this_hour_kicks">ಈ ಗಂಟೆಯಲ್ಲಿ / This Hour:</string>
+    <string name="weekly_summary_title">ವಾರದ ಸಾರಾಂಶ / Weekly Summary</string>
+    <string name="day_col">ದಿನ / Day</string>
+    <string name="avg_kicks_col">ಸರ.ಒದೆ/ಗಂಟೆ / Avg/Hr</string>
+    <string name="low_movement_alert">⚠️ ಚಲನೆ ಕಡಿಮೆ ಆಗಿದೆ — ವೈದ್ಯರನ್ನು ಸಂಪರ್ಕಿಸಿ\nBaby movement is low — Contact doctor</string>
+    <string name="reset_kicks">ಮರುಹೊಂದಿಸಿ / Reset Kicks</string>
+    <string name="reset_confirm_title">ಖಚಿತಪಡಿಸಿ / Confirm Reset</string>
+    <string name="reset_confirm_msg">ಇಂದಿನ ಎಲ್ಲ ಒದೆ ದಾಖಲೆ ಅಳಿಸಲಾಗುವುದು. ಮುಂದುವರಿಯಲೇ?\nAll today\'s kick records will be deleted. Continue?</string>
+    <string name="yes_reset">ಹೌದು / Yes</string>
+    <string name="cancel">ರದ್ದು / Cancel</string>
+    <string name="kicks_in_2hr_section">ಕಳೆದ 2 ಗಂಟೆ / Last 2 Hours:</string>
+
+    <!-- Checkup -->
+    <string name="checkup_title">ಮುಂದಿನ ತಪಾಸಣೆ / Next Checkup</string>
+    <string name="add_checkup">+ ತಪಾಸಣೆ ಸೇರಿಸಿ / Add Checkup</string>
+    <string name="days_remaining">ದಿನಗಳು ಉಳಿದಿವೆ / Days Remaining</string>
+    <string name="checkup_type_label">ತಪಾಸಣೆ ಪ್ರಕಾರ / Checkup Type</string>
+    <string name="select_date">ದಿನಾಂಕ ಆಯ್ಕೆ / Select Date</string>
+    <string name="upcoming_checkups">ಮುಂಬರುವ ತಪಾಸಣೆಗಳು / Upcoming Checkups</string>
+    <string name="no_checkups">ಯಾವುದೇ ತಪಾಸಣೆ ಇಲ್ಲ. + ಗುಂಡಿ ಒತ್ತಿ ಸೇರಿಸಿ.\nNo checkups added. Tap + to add one.</string>
+    <string name="notification_channel_name">Matru-Sneh Reminders</string>
+    <string name="notification_channel_desc">Checkup and health reminders</string>
+
+    <!-- Nutrition -->
+    <string name="nutrition_title">ಇಂದಿನ ಪೋಷಣೆ / Today\'s Nutrition</string>
+    <string name="nutrition_progress">ಇಂದಿನ ಪೋಷಣೆ: %1$d/8 ಪೂರ್ಣ / Today\'s Nutrition: %1$d/8 Complete</string>
+    <string name="nutrition_complete_msg">🌸 ಶಾಬಾಷ್! ನಿಮ್ಮ ಮಗು ಆರೋಗ್ಯವಾಗಿದೆ\nExcellent! Your baby is healthy!</string>
+    <string name="food_ragi">ರಾಗಿ / Ragi (Finger Millet)</string>
+    <string name="food_greens">ಹಸಿರು ತರಕಾರಿ / Green Leafy Vegetables</string>
+    <string name="food_pulses">ಬೇಳೆಕಾಳು / Pulses (Dal)</string>
+    <string name="food_milk">ಹಾಲು / Milk</string>
+    <string name="food_egg">ಮೊಟ್ಟೆ / Egg</string>
+    <string name="food_banana">ಬಾಳೆಹಣ್ಣು / Banana</string>
+    <string name="food_water">ನೀರು — 8 ಲೋಟ / Water — 8 glasses</string>
+    <string name="food_iron">ಕಬ್ಬಿಣದ ಮಾತ್ರೆ / Iron Tablet</string>
+
+    <!-- Health Alerts -->
+    <string name="health_alert_title">ಆರೋಗ್ಯ ಎಚ್ಚರಿಕೆ / Health Alerts</string>
+    <string name="danger_signs_label">ಅಪಾಯ ಸೂಚನೆಗಳು ಆಯ್ಕೆ ಮಾಡಿ / Select Danger Signs</string>
+    <string name="sign_swelling">ತೀವ್ರ ಊತ — ಕೈ/ಮುಖ/ಕಾಲು\nSevere swelling — hands/face/feet</string>
+    <string name="sign_headache">ತೀವ್ರ ತಲೆನೋವು / Severe headache</string>
+    <string name="sign_vision">ಕಣ್ಣು ಮಂಜಾಗುವಿಕೆ / Blurred vision</string>
+    <string name="sign_abdominal">ಹೊಟ್ಟೆ ನೋವು / Abdominal pain</string>
+    <string name="sign_bleeding">ರಕ್ತಸ್ರಾವ / Bleeding</string>
+    <string name="sign_fever">ಜ್ವರ / Fever</string>
+    <string name="sign_no_movement">ಮಗು ಚಲನೆ ನಿಂತಿದೆ / Baby not moving</string>
+    <string name="emergency_title">⚠️ ತಕ್ಷಣ ಆಸ್ಪತ್ರೆಗೆ ಹೋಗಿ!\nGO TO HOSPITAL IMMEDIATELY!</string>
+    <string name="emergency_helpline">ಹತ್ತಿರದ ಆರೋಗ್ಯ ಕೇಂದ್ರ: 104 (ಉಚಿತ)\nNearest Health Centre: 104 (Free)</string>
+    <string name="call_104">📞 104 ಕರೆ ಮಾಡಿ / Call 104</string>
+    <string name="clear_all">ಎಲ್ಲ ತೆರವು / Clear All</string>
+
+    <!-- Notifications -->
+    <string name="notif_checkup_title">ಮರುದಿನ ತಪಾಸಣೆ ಇದೆ / Checkup Tomorrow</string>
+    <string name="notif_checkup_text">ನಾಳೆ ನಿಮ್ಮ %1$s ತಪಾಸಣೆ ಇದೆ. ತಯಾರಿ ಮಾಡಿ!\nYour %1$s checkup is tomorrow. Be prepared!</string>
+    <string name="notif_kick_title">ಮಗುವಿನ ಚಲನೆ ಕಡಿಮೆ / Low Baby Movement</string>
+    <string name="notif_kick_text">ಕಳೆದ 2 ಗಂಟೆಯಲ್ಲಿ 10ಕ್ಕಿಂತ ಕಡಿಮೆ ಒದೆ. ವೈದ್ಯರನ್ನು ಸಂಪರ್ಕಿಸಿ!\nFewer than 10 kicks in last 2 hours. Contact doctor!</string>
+    <string name="notif_nutrition_title">ಪೋಷಣೆ ಪಟ್ಟಿ ಮರುಹೊಂದಿಸಲಾಗಿದೆ / Nutrition List Reset</string>
+    <string name="notif_nutrition_text">ಹೊಸ ದಿನ! ನಿಮ್ಮ ಪೋಷಣೆ ಪಟ್ಟಿ ತಯಾರಾಗಿದೆ.\nNew day! Your nutrition checklist is ready.</string>
+
+    <!-- Common -->
+    <string name="ok">ಸರಿ / OK</string>
+    <string name="delete">ಅಳಿಸಿ / Delete</string>
+    <string name="edit">ಬದಲಾಯಿಸಿ / Edit</string>
+    <string name="save">ಉಳಿಸಿ / Save</string>
+    <string name="loading">ಲೋಡ್ ಆಗುತ್ತಿದೆ...</string>
+</resources>

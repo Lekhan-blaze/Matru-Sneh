@@ -1,0 +1,225 @@
+================================================================
+HOW TO EXPLAIN YOUR PROJECT — MATRU-SNEH
+(Read this like you are talking to someone, simple language)
+================================================================
+
+----------------------------------------------------------------
+SLIDE 1 — INTRODUCTION (How to start)
+----------------------------------------------------------------
+"Good morning/afternoon everyone.
+My name is Anushka and I did my internship at MindMatrix,
+which is an e-learning company in Bengaluru.
+
+My internship was in Android App Development using AI.
+The project I worked on is called MATRU-SNEH,
+which means Mother's Love in Kannada."
+
+----------------------------------------------------------------
+SLIDE 2 — ABOUT THE COMPANY (If they ask about MindMatrix)
+----------------------------------------------------------------
+"MindMatrix is an online learning platform.
+They teach engineering students how to build real apps
+and get industry experience.
+
+They have their own website for learning called lms.mindmatrix.io
+and a Discord group where students can talk to each other.
+
+My mentor was Mr. Tirumal Mutalikdesai.
+He guided me throughout the project."
+
+----------------------------------------------------------------
+SLIDE 3 — PROBLEM (Why did you build this app?)
+----------------------------------------------------------------
+"So the problem is this —
+
+Pregnant women in rural Karnataka don't have access to
+good health information. Most apps are only in English.
+Many villages don't have internet.
+The paper health cards they get from hospitals get lost easily.
+
+So I built an app that:
+- Works WITHOUT internet (completely offline)
+- Is in BOTH Kannada and English
+- Helps mothers track their pregnancy week by week"
+
+----------------------------------------------------------------
+SLIDE 4 — WHAT THE APP DOES (Simple features explanation)
+----------------------------------------------------------------
+"The app has 5 main features:
+
+1. KICK COUNTER
+   - The mother taps a button every time the baby kicks
+   - If the baby kicks less than 10 times in 2 hours,
+     the app sends a warning notification
+   - This is important to detect if the baby is in danger
+
+2. CHECKUP SCHEDULER
+   - The mother can add upcoming doctor appointments
+   - The app shows a countdown — like '4 days remaining'
+   - It also sends a reminder notification before the checkup
+
+3. NUTRITION TRACKER
+   - It shows a checklist of 10 healthy foods
+   - Like Ragi, Milk, Egg, Banana, Iron Tablet etc.
+   - The mother checks off what she ate that day
+   - It resets automatically every morning
+
+4. HEALTH ALERTS
+   - If the mother has danger signs like
+     severe headache, bleeding, or baby not moving —
+     she selects those signs in the app
+   - The app immediately shows a big red screen saying
+     'GO TO HOSPITAL IMMEDIATELY'
+   - There is a button to call 104 (free helpline) directly
+
+5. WEEKLY MILESTONES (This is the AI part)
+   - Every week, the app shows what is happening with the baby
+   - Like — 'Week 8: Baby is the size of a kidney bean. Heart is beating!'
+   - This text is in BOTH Kannada and English
+   - All 33 weeks of content (week 8 to week 40) were
+     GENERATED using Google Gemini AI"
+
+----------------------------------------------------------------
+SLIDE 5 — TECHNOLOGY (If they ask what tech you used)
+----------------------------------------------------------------
+"I built this app using:
+
+- Kotlin — the programming language for Android
+- Android Studio — the software to write the code
+- Room Database — to save all data on the phone itself
+  (this is why it works offline)
+- WorkManager — to send notifications even when app is closed
+- MVVM Architecture — this is a design pattern that keeps
+  the code clean and organised
+- Google Gemini AI — to generate the pregnancy milestone content
+  in Kannada and English"
+
+----------------------------------------------------------------
+SLIDE 6 — AI PART (This is important — explain clearly)
+----------------------------------------------------------------
+"The most important part of this project is the AI.
+
+I used Google Gemini — which is Google's AI tool —
+to write the pregnancy milestone descriptions.
+
+For example, for Week 20, I asked Gemini to tell me
+what happens to the baby in that week,
+in both Kannada and English.
+
+It gave me medically accurate, easy-to-understand content.
+I did this for ALL 33 weeks — from Week 8 to Week 40.
+
+This content is stored inside the app itself.
+So even without internet, the mother can read it.
+
+This is how AI is used INSIDE the app — not just to build it."
+
+----------------------------------------------------------------
+SLIDE 7 — ARCHITECTURE (If they ask about MVVM)
+----------------------------------------------------------------
+"The app follows MVVM architecture.
+This is a popular design pattern used in professional apps.
+
+Think of it in 3 layers:
+
+1. The SCREEN (what the user sees) — called the View
+2. The BRAIN (the logic) — called the ViewModel
+3. The DATABASE (where data is saved) — called the Model
+
+The screen never talks directly to the database.
+It always goes through the ViewModel.
+This makes the code clean, testable, and easy to maintain."
+
+----------------------------------------------------------------
+SLIDE 8 — BACKGROUND WORKERS (If they ask about notifications)
+----------------------------------------------------------------
+"The app sends 3 types of automatic notifications:
+
+1. Every 12 hours — reminds the mother about her upcoming checkup
+2. Every 2 hours — reminds her to track the baby's kicks
+3. Every midnight — resets the food checklist for the new day
+
+These notifications work even when the app is closed.
+I used something called WorkManager to do this.
+It also works after the phone is restarted."
+
+----------------------------------------------------------------
+SLIDE 9 — WHAT MAKES IT SPECIAL (Confidence booster slide)
+----------------------------------------------------------------
+"What makes Matru-Sneh different from other projects:
+
+1. The app works COMPLETELY OFFLINE — no internet at all
+2. It is bilingual — Kannada AND English everywhere
+3. AI is actually used INSIDE the app (not just to write code)
+4. It works on almost all Android phones — even old ones
+5. It was built for REAL people — rural mothers in Karnataka
+   who have low internet access and may not speak English
+
+This is not just a dummy project.
+This is something that can actually help people."
+
+----------------------------------------------------------------
+SLIDE 10 — CONCLUSION (How to end)
+----------------------------------------------------------------
+"To summarise —
+
+During this 15-week internship at MindMatrix,
+I built a complete Android app called Matru-Sneh
+that helps rural pregnant women track their health
+without needing internet or knowing English.
+
+I learned:
+- How to build Android apps using MVVM architecture
+- How to use Google Gemini AI to generate real content
+- How to make apps work offline using Room Database
+- How to send smart background notifications using WorkManager
+- How to design for users who have language and tech barriers
+
+This internship gave me real industry experience
+and helped me understand how technology can solve
+real-world problems for real people.
+
+Thank you!"
+
+================================================================
+COMMON QUESTIONS THEY MIGHT ASK — SIMPLE ANSWERS
+================================================================
+
+Q: What is MVVM?
+A: It is a design pattern. It separates the screen, the logic,
+   and the database into 3 layers so the code is clean and organised.
+
+Q: What database did you use?
+A: Room Database. It is a local database that saves data
+   directly on the phone. No server or internet needed.
+
+Q: How did you use AI in this project?
+A: I used Google Gemini to generate pregnancy milestone content
+   for weeks 8 to 40 in Kannada and English. 33 entries total.
+   This content is stored offline in the app.
+
+Q: Why Kannada?
+A: The app is for rural Karnataka mothers. Many of them
+   don't speak English. Bilingual support makes it accessible.
+
+Q: Does it need internet?
+A: No. The app works 100% offline. All data is saved locally.
+
+Q: What are WorkManager workers?
+A: They are background tasks that run automatically.
+   Like an alarm — even if the app is closed, they still run.
+
+Q: What was your biggest challenge?
+A: The Gradle build error where the wrong Java version was picked up.
+   I fixed it by pointing Gradle to Android Studio's own JDK
+   and stopping the old cached daemon.
+
+Q: What is the minimum Android version your app supports?
+A: Android 5.0 (API 21). This covers about 98% of all Android phones.
+
+================================================================
+TIP: Speak slowly. Don't rush. If you forget something,
+just say "The app basically helps pregnant mothers track
+their health offline in Kannada and English using AI."
+That one line covers everything! 😊
+================================================================

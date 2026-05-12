@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/kickCounterFragment"
+        android:icon="@drawable/ic_kick"
+        android:title="@string/tab_kick_short" />
+    <item
+        android:id="@+id/checkupFragment"
+        android:icon="@drawable/ic_checkup"
+        android:title="@string/tab_checkup_short" />
+    <item
+        android:id="@+id/nutritionFragment"
+        android:icon="@drawable/ic_nutrition"
+        android:title="@string/tab_nutrition_short" />
+    <item
+        android:id="@+id/healthAlertFragment"
+        android:icon="@drawable/ic_alert"
+        android:title="@string/tab_alerts_short" />
+</menu>
