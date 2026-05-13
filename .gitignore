@@ -13,3 +13,8 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+# Personal/internship files
+how_to_explain_presentation.txt
+internship_report.md
+internship_report_final.md
